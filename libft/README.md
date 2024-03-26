@@ -1,6 +1,6 @@
 ![libft_img](https://github.com/alexmeurant/42_Common_Core_Projects/assets/18213190/aa1d84cb-b4ce-4135-9537-6e47fbc4b997)
 
-First project of [42](https://42nice.fr/) whose aim is to recreate a simplified version of the libc library.
+<p align="center">First project of [42](https://42nice.fr/) whose aim is to recreate a simplified version of the libc library.</p>
 
 ---
 ### Project construction:
