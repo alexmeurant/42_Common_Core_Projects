@@ -6,7 +6,7 @@
 /*   By: ameurant <ameurant@student.42nice.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/13 18:03:46 by ameurant          #+#    #+#             */
-/*   Updated: 2024/03/18 10:39:37 by ameurant         ###   ########.fr       */
+/*   Updated: 2024/04/03 17:58:10 by ameurant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,12 +28,16 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	return (ft_memcpy(substr, (char *)s + start, len));
 }
 
-/* int	main(void)
+/*int	main(void)
 {
 	char	*s = "Hello world!";
-	char	*substr;
-	substr = ft_substr(s, 6, 6);
+	char	*substr = ft_substr(s, 6, 6);
+	printf("substr: %s\n", substr);
+	free(substr);
+
+	char *s = "";
+	char *substr = ft_substr(s, 1, 1);
 	printf("substr: %s\n", substr);
 	free(substr);
 	return (0);
-} */
+}*/
