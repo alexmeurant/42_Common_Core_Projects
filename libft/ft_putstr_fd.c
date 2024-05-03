@@ -6,7 +6,7 @@
 /*   By: ameurant <ameurant@student.42nice.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/13 18:05:19 by ameurant          #+#    #+#             */
-/*   Updated: 2024/03/19 16:32:39 by ameurant         ###   ########.fr       */
+/*   Updated: 2024/05/02 09:11:32 by ameurant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 void	ft_putstr_fd(char *s, int fd)
 {
+	if (!s)
+		return ;
 	while (*s)
 		ft_putchar_fd(*s++, fd);
 }

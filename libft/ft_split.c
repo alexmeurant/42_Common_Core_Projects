@@ -6,13 +6,13 @@
 /*   By: ameurant <ameurant@student.42nice.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/13 18:04:23 by ameurant          #+#    #+#             */
-/*   Updated: 2024/03/21 14:17:51 by ameurant         ###   ########.fr       */
+/*   Updated: 2024/04/24 10:42:51 by ameurant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	string_len(char *str, char c)
+static int	string_len(char *str, char c)
 {
 	int	i;
 
@@ -22,7 +22,7 @@ int	string_len(char *str, char c)
 	return (i);
 }
 
-int	count_strings(char const *s, char c)
+static int	count_strings(char const *s, char c)
 {
 	unsigned int	i;
 	unsigned int	string;
@@ -41,7 +41,7 @@ int	count_strings(char const *s, char c)
 	return (string);
 }
 
-char	*create_string(char *str, char c, char **split)
+static char	*create_string(char *str, char c, char **split)
 {
 	char			*string;
 	unsigned int	str_len;
