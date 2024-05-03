@@ -75,3 +75,4 @@ The generated library is called `libft.a`.
 | ft_lstiter | `void ft_lstiter(t_list *lst, void (*f)(void *))` |
 | ft_lstmap | `t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))` |
 ---
+![libft_score](https://github.com/alexmeurant/42_Common_Core_Projects/blob/main/libft/libft_score.png?raw=true)
